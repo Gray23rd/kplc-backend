@@ -1,0 +1,22 @@
+{
+  "trained_at": "2026-03-02T23:12:27.340198",
+  "n_samples": 2000,
+  "features": [
+    "prev_month_kwh",
+    "prev_2_months_kwh",
+    "prev_3_months_kwh",
+    "num_appliances",
+    "has_ac",
+    "has_water_heater",
+    "month",
+    "is_hot_season",
+    "days_in_month",
+    "account_type"
+  ],
+  "kwh_accuracy": 94.1551859472908,
+  "bill_accuracy": 93.67684317475849,
+  "kwh_mae": 27.67729535833123,
+  "bill_mae": 720.7957431251685,
+  "kwh_r2": 0.9707034516331636,
+  "bill_r2": 0.9648658238734649
+}

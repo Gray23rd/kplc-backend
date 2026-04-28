@@ -1,0 +1,4 @@
+{
+  "ignore": ["ml/venv", "ml/__pycache__", "*.pyc"],
+  "delay": 1000
+}
