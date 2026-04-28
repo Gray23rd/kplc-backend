@@ -198,4 +198,4 @@ if __name__ == '__main__':
     print("="*50)
     print(f"Running on: http://localhost:5001")
     print("="*50)
-    app.run(host='0.0.0.0', port=5001, debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5001)))
