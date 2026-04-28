@@ -2,8 +2,7 @@
 import { db } from '../config/firebase.js';
 import fetch from 'node-fetch';
 
-const ML_SERVICE_URL = 'http://localhost:5001';
-
+const ML_SERVICE_URL = process.env.ML_SERVICE_URL || 'http://localhost:5001';
 /**
  * Get prediction for next month's bill
  * GET /api/predictions/:accountId
